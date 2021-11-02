@@ -1,8 +1,12 @@
 #!/bin/bash -x
 
-read -p "enter first number: " a
-read -p "enter second number: " b
-read -p "enter third number: " c
+read -p "Enter first number: " a
+read -p "Enter second number: " b
+read -p "Enter third number: " c
+
+exp=$((a+b*c))
+
+echo $exp
 
 
 
