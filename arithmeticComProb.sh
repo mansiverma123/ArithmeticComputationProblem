@@ -4,9 +4,9 @@ read -p "Enter first number: " a
 read -p "Enter second number: " b
 read -p "Enter third number: " c
 
-exp=$((a*b+c))
+exp=$((c+a/b))
 
-echo "a*b+c= "$exp
+echo "c+a/b= "$exp
 
 
 
