@@ -15,7 +15,15 @@ dict[exp2]=$exp2
 dict[exp3]=$exp3 
 dict[exp4]=$exp4
 
-echo  ${dict[@]}
+echo ${dict[@]}
+
+for i in $( echo ${dict[@]} | tr ' ' '\n' | sort -nr )
+do
+  echo $i
+done
+
+
+
 
 
 
